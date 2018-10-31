@@ -11,8 +11,10 @@ If the number of files is 2<sup>n</sup>, they can compose full binary tree. It i
 
 I try to use three method to complete my Winner Tree merge. The details is introduced below.
 
-# Ideas 1 - merge max 2<sup>n</sup>
+# Ideas 1 - merge max 2<sup>n</sup> <= number of files
 Merge the max 2<sup>n</sup> but less or equal the number of files at one time.
 Take an example, if we have 9 files to merge, I merge 8 files at first, and merge 2 file at second.
 
-# Ideas 2 - 
+# Ideas 2 - merge min 2<sup>n</sup> >= number of files
+
+# Ideas 3 - merge min 2<sup>n</sup> >= number of files
