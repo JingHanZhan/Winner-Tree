@@ -19,3 +19,6 @@ Take an example, if we have 9 files to merge, I merge 8 files at first, and merg
 
 # Ideas 3 - merge files = number of files
 
+
+
+# coming soon~
