@@ -17,4 +17,5 @@ Take an example, if we have 9 files to merge, I merge 8 files at first, and merg
 
 # Ideas 2 - merge min 2<sup>n</sup> >= number of files
 
-# Ideas 3 - merge min 2<sup>n</sup> >= number of files
+# Ideas 3 - merge files = number of files
+
