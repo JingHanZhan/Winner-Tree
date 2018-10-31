@@ -18,7 +18,7 @@ func main() {
 		mergeSize    int
 		outputNumber int
 	)
-	for i := 1; i < 9; i++ {
+	for i := 1; i < 12; i++ {
 		fileName := "div/divFile" + strconv.Itoa(i) + ".txt"
 		fileTable = append(fileTable, fileName)
 	}
@@ -129,4 +129,10 @@ func winnerTreeMerge(fileTable []string, outputNumber int) {
 			countNilFile++
 		}
 	}
+
+	//delete the file that have merged
+	// for i := 0; i < numFile; i++ {
+	// 	mergeFile[i].Close()
+	// 	os.Remove(fileTable[i])
+	// }
 }
